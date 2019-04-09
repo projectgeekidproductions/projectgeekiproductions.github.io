@@ -774,7 +774,19 @@
     <script>
         $(".nk-portfolio-item-link").modalVideo({ channel: 'vimeo' });
 	   var query = window.location.search.substring(1);
-		$('.nk-isotope').isotope({ filter: "[data-filter*=" + query + "]" });
+		
+		switch (query) {
+  case 'KiddieParties':
+  case 'Corporate':
+  case 'Weddings':
+  case 'Debuts':
+  case 'ShortFilms':
+ 		$('.nk-isotope').isotope({ filter: "[data-filter*=" + query + "]" });
+
+    break;
+}
+
+	   
 
 		
     </script>
