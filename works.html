@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700" rel="stylesheet" type="text/css">
     
     <link rel="stylesheet" href="assets/css/combined.css">
+    <link rel="stylesheet" href="assets/css/modal-video.css">
 
     <!-- END: Styles -->
 
@@ -46,32 +47,14 @@
                         <img src="assets/images/PGK logo_BLACK.png" alt="" width="85">
                     </a>
 
-                    <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
+                    <ul class="nk-nav nk-nav-right"">
                         <li>
-                            <a href="index.html#about">About</a>
+                            <a href="index.html">About</a>
                         </li>
-                        <li>
-                            <a href="index.html#contact">Contact</a>
-                        </li>
-                        <li class="active">
-                            <a href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="blog.html">Blog</a>
-                        </li>
+                      
                     </ul>
 
-                    <ul class="nk-nav nk-nav-right nk-nav-icons">
-                        <li class="single-icon hidden-lg-up">
-                            <a href="#" class="nk-navbar-full-toggle">
-                                <span class="nk-icon-burger">
-                                    <span class="nk-t-1"></span>
-                                    <span class="nk-t-2"></span>
-                                    <span class="nk-t-3"></span>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
+                   
                 </div>
             </div>
         </nav>
@@ -141,7 +124,7 @@
 
 
 
-        <div class="container">
+        <div  class="container">
             <!-- START: Filter -->
             <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
                 <a href="#nk-toggle-filter">
@@ -149,7 +132,7 @@
                 </a>
             </div>
       
- <ul class="nk-isotope-filter nk-isotope-filter-active">
+			<ul class="nk-isotope-filter nk-isotope-filter-active">
                     <li data-filter="Corporate">Corporate</li>
                     <li data-filter="Weddings">Weddings</li>
                     <li data-filter="Debuts">Debuts</li>
@@ -787,7 +770,14 @@
     <!-- START: Scripts -->
 
     <script src="assets/js/combined.js"></script>
-    
+        <script src="assets/js/modal-video.js"></script>
+    <script>
+        $(".nk-portfolio-item-link").modalVideo({ channel: 'vimeo' });
+	   var query = window.location.search.substring(1);
+		$('.nk-isotope').isotope({ filter: "[data-filter*=" + query + "]" });
+
+		
+    </script>
     <!-- END: Scripts -->
 
 

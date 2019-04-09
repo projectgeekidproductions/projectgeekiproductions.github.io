@@ -27,10 +27,9 @@ Our goal is to create advertising materials that teach, motivate, and inspire pe
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="assets/css/combined.css">
-    <link rel="stylesheet" href="assets/css/modal-video.css">
 
     <!-- END: Styles -->
-
+	
 
 
 </head>
@@ -240,7 +239,7 @@ Our goal is to create advertising materials that teach, motivate, and inspire pe
         </div>
         <!-- END: Features -->
         <!-- START: Portfolio -->
-        <div class="nk-box bg-white" id="projects">
+		<div class="nk-box bg-gray-1" id="projects">
             <div class="nk-gap-4 mt-5"></div>
 
             <h2 class="text-xs-center display-4">Our Works</h2>
@@ -249,7 +248,7 @@ Our goal is to create advertising materials that teach, motivate, and inspire pe
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
-                        <div class="text-xs-center">
+                        <div class="text-xs-center"> 
                         </div>
                     </div>
                 </div>
@@ -257,617 +256,122 @@ Our goal is to create advertising materials that teach, motivate, and inspire pe
 
             <div class="nk-gap-2 mt-12"></div>
             <div class="container">
-                <!-- START: Filter -->
-                <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
-                    <a href="#nk-toggle-filter">
-                        <span class="nk-icon-squares"></span>
-                    </a>
+                <!-- START: Carousel -->
+                <div class="nk-carousel-2 nk-carousel-x2 nk-carousel-no-margin nk-carousel-all-visible nk-blog-isotope" data-dots="true">
+				<style>
+				
+				@media (min-width: 1000px) {					
+					.rowworks {
+					  display: flex;
+					}
+
+					/* Create two equal columns that sits next to each other */
+					.columnworks {
+					  flex: 50%;
+						margin-left: 20px;
+						margin-right: 20px;
+					}
+				}
+				</style>
+				<div class="columnworks">
+						<div>
+							<div class="pl-15 pr-15">
+								<div class="nk-blog-post">
+									<div class="nk-post-thumb">
+										<a href="works.html?Corporate">
+											<img src="assets/images/luiscover.jpg" alt="" class="nk-img-stretch">
+										</a>
+										<div class="nk-post-category"><a href="works.html?Corporate">Corporate</a></div>
+									</div>
+									
+								</div>
+							</div>
+							<div class="nk-gap-1"></div>
+						</div>
+					</div>
+                    <div class="rowworks">
+                        <div class="columnworks">
+                            <div>
+                                <div class="pl-15 pr-15">
+                                    <div class="nk-blog-post">
+                                        <div class="nk-post-thumb">
+                                            <a href="works.html?Weddings">
+                                                <img src="assets/images/jayicecover.jpg" alt="" class="nk-img-stretch">
+                                            </a>
+                                            <div class="nk-post-category"><a href="works.html?Weddings">Wedding</a></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="nk-gap-1"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="columnworks">
+                            <div>
+                                <div class="pl-15 pr-15">
+                                    <div class="nk-blog-post">
+                                        <div class="nk-post-thumb">
+                                            <a href="works.html?KiddieParties">
+                                                <img src="assets/images/kiddiecover.jpg" alt="" class="nk-img-stretch">
+                                            </a>
+                                            <div class="nk-post-category"><a href="works.html?KiddieParties">Kiddie</a></div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                <div class="nk-gap-1"></div>
+                            </div>
+                        </div>
+					</div>
+					
+					
+					 <div class="rowworks">
+                        <div class="columnworks">
+                            <div>
+                                <div class="pl-15 pr-15">
+                                    <div class="nk-blog-post">
+                                        <div class="nk-post-thumb">
+                                            <a href="works.html?Debuts">
+                                                <img src="assets/images/debutcover.jpg" alt="" class="nk-img-stretch">
+                                            </a>
+                                            <div class="nk-post-category"><a href="works.html?Debuts">Debut</a></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="nk-gap-1"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="columnworks">
+                            <div>
+                                <div class="pl-15 pr-15">
+                                    <div class="nk-blog-post">
+                                        <div class="nk-post-thumb">
+                                            <a href="works.html?ShortFilms">
+                                                <img src="assets/images/shortfilmcover.JPG" alt="" class="nk-img-stretch">
+                                            </a>
+                                            <div class="nk-post-category"><a href="works.html?ShortFilms">Short Films</a></div>
+                                        </div>
+                                     
+                                    </div>
+                                </div>
+                                <div class="nk-gap-1"></div>
+                            </div>
+                        </div>
+					</div>
+
+
+
+                    </div>
                 </div>
-                <ul class="nk-isotope-filter nk-isotope-filter-active">
-                    <li class="active" data-filter="*">All</li>
-                    <li data-filter="Corporate">Corporate</li>
-                    <li data-filter="Weddings">Weddings</li>
-                    <li data-filter="Debuts">Debuts</li>
-                    <li data-filter="KiddieParties">Kiddie Parties</li>
-                    <li data-filter="ShortFilms">Short Film</li>
-                </ul>
-                <!-- END: Filter -->
-
-                <div class="nk-portfolio-list nk-isotope nk-isotope-4-cols">
-
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="307179046" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/intercon.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Holiday Celebration 2018 SDE</h2>
-                                    <div class="portfolio-item-category">InterContinental Hotels Group Manila</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="293095463" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/jessicayang.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Jessica Yang: Behind the Scenes</h2>
-                                    <div class="portfolio-item-category">Jessica Yang</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="271378388" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/losttransportation.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Lost Transportation Teaser</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="200006967" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/luismanzano.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Luis Manzano Profile</h2>
-                                    <div class="portfolio-item-category">Luis Manzano</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="201245950" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/sidlucero.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Sid Lucero Profile</h2>
-                                    <div class="portfolio-item-category">Sid Lucero</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="228401635" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/jinripark.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Jinri Park Profile</h2>
-                                    <div class="portfolio-item-category">Jinri Park</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="320686014" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/katarinarodriguez.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Katarina Rodriguez</h2>
-                                    <div class="portfolio-item-category">Summer Profile</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="320686248" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/rachelpeters.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Rachel Peters</h2>
-                                    <div class="portfolio-item-category">Summer Profile</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="320642959" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/sirenesutton.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Sirene Sutton</h2>
-                                    <div class="portfolio-item-category">Summer Profile</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="320632701" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/jessicayang2.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Jessica Yang</h2>
-                                    <div class="portfolio-item-category">Summer Profile</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="320632530" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/winwynmarquez.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Winwyn Marquez</h2>
-                                    <div class="portfolio-item-category">Summer Profile</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="320632372" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/patriciahenson.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Patricia Henson</h2>
-                                    <div class="portfolio-item-category">Summer Profile</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="320252967" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/newlounge.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">NÉW Lounge Summer Flutter</h2>
-                                    <div class="portfolio-item-category">Campaign Video</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="270360393" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/nanayluisas.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Nanay Luisa</h2>
-                                    <div class="portfolio-item-category"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="252563854" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/uratex.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Regalo</h2>
-                                    <div class="portfolio-item-category">Uratex Christmas Special</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="242712410" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/dccs.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">DCCS Opening Salvo</h2>
-                                    <div class="portfolio-item-category">Don Carlo Cavina School</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="242712410" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/dccs.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">DCCS Opening Salvo</h2>
-                                    <div class="portfolio-item-category">Don Carlo Cavina School</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="228659155" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/vodi.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Vodi International</h2>
-                                    <div class="portfolio-item-category">Infomercial</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="229117846" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/urcc main.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">URCC - Main Event: Pato vs Alulod Video</h2>
-                                    <div class="portfolio-item-category">Highlights</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="224442521" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/erwin tulfo.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Tulfo - Radyo 5</h2>
-                                    <div class="portfolio-item-category"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Corporate" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="289431219" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/guess.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Guess Girls Squad Party</h2>
-                                    <div class="portfolio-item-category">1min Video Highlight</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="KiddieParties" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="291297074" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/karabday.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Kara</h2>
-                                    <div class="portfolio-item-category">1st Birthday SDE</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="KiddieParties" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="309083949" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/huntersncu.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Hunter’s NICU Journey</h2>
-                                    <div class="portfolio-item-category"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="KiddieParties" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="286066600" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/xandria.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Xandria</h2>
-                                    <div class="portfolio-item-category">7th Birthday</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="KiddieParties" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="280129289" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/justin.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Justin</h2>
-                                    <div class="portfolio-item-category">1st Birthday SDE</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="KiddieParties" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="280868090" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/boomerangmv.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Boomerang MV</h2>
-                                    <div class="portfolio-item-category">Xandria</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Weddings" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="200656570" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/janoten.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Jano and Ten</h2>
-                                    <div class="portfolio-item-category">Wedding SDE</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="nk-isotope-item" data-filter="Weddings" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="198743685" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/ericsonavygail.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Ericson and Avygail</h2>
-                                    <div class="portfolio-item-category">Wedding SDE</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="nk-isotope-item" data-filter="Weddings" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="304417803" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/bartnikkie.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Bart and Nikkie</h2>
-                                    <div class="portfolio-item-category">Wedding SDE</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Weddings" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="190706090" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/neilmaika.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Neil and Maika</h2>
-                                    <div class="portfolio-item-category">Wedding SDE</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Weddings" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="219729368" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/jayice.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Jay and Ice</h2>
-                                    <div class="portfolio-item-category">Wedding SDE</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Debuts" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="270910346" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/kaila.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Kaila</h2>
-                                    <div class="portfolio-item-category">Debut SDE</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Debuts" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="264081338" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/kailapredebut.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Kaila</h2>
-                                    <div class="portfolio-item-category">Pre-Debut</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Debuts" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="245420455" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/sharina.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Sharina Tayco</h2>
-                                    <div class="portfolio-item-category">Pre-Debut</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="Debuts" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="249937954" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/sharinasde.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">Sharina Tayco</h2>
-                                    <div class="portfolio-item-category">Debut SDE</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="ShortFilms" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="237502564" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/split.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">SPLIT</h2>
-                                    <div class="portfolio-item-category">Short Film</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="ShortFilms" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="228567401" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/southep1.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">South Ep1</h2>
-                                    <div class="portfolio-item-category">Teaser</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="ShortFilms" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="222497753" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/southeps1.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">South Ep1</h2>
-                                    <div class="portfolio-item-category"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="nk-isotope-item" data-filter="ShortFilms" style="cursor: pointer">
-                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                            <a data-video-id="229656554" class="nk-portfolio-item-link"></a>
-                            <div class="nk-portfolio-item-image">
-                                <div style="background-image: url('assets/images/southep2.JPG');"></div>
-                            </div>
-                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                                <div>
-                                    <h2 class="portfolio-item-title h3">South Ep2</h2>
-                                    <div class="portfolio-item-category"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="nk-gap-4 mt-15"></div>
-        </div>
-        <!-- END: Portfolio -->
+                <!-- END: Carousel -->
+		</div>
+            
+		<!-- END: Portfolio -->
         <!-- START: Reviews -->
         <div class="nk-box bg-dark-1">
             <div class="bg-image bg-image-parallax" style="background-image: url('assets/images/bg-pattern.jpg');"></div>
@@ -1030,10 +534,7 @@ Our goal is to create advertising materials that teach, motivate, and inspire pe
     <script src="assets/js/device.min.js"></script>
     <script src="assets/js/jquery.mb.YTPlayer.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script src="assets/js/modal-video.js"></script>
-    <script>
-        $(".nk-portfolio-item-link").modalVideo({ channel: 'vimeo' });
-    </script>
+
     <!-- END: Scripts -->
 
 
