@@ -97,9 +97,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     }
 
     function getVideoUrl(opt, videoId) {
-        if (opt.channel === "youtube") {
+        let isnum = /^\d+$/.test(videoId);
+
+        if (!isnum) {
             return getYoutubeUrl(opt.youtube, videoId)
-        } else if (opt.channel === "vimeo") {
+        } else if (isnum) {
             return getVimeoUrl(opt.vimeo, videoId)
         }
     }
